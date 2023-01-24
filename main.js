@@ -14,3 +14,8 @@ try {
 catch {
     console.error("Couldn't load background image.")
 }
+
+/* Functions */
+function fun_fact() {
+    window.alert("Fun Fact: I was too lazy to make a carrd, so I made an entire website.")
+}
