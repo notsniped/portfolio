@@ -3,6 +3,10 @@ body {
     background-color: #030303;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#main-page-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 #top-nav-bar {
     font-size: 18px;
     padding: 12.5px;
