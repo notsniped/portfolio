@@ -13,7 +13,6 @@ body {
     color: white;
     backdrop-filter: blur(10px);
     position: fixed;
-    background-color: rgb(53, 53, 53);
     width: 100%;
     padding: 20px;
     font-size: 17px;
