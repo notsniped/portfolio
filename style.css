@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    color: white;
     background-color: #030303;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -8,21 +9,32 @@ body {
     padding-right: 30px;
 }
 #top-nav-bar {
-    font-size: 18px;
-    padding: 12.5px;
     background-color: #131313d8;
     color: white;
-    position: fixed;
-    width: 100%;
     backdrop-filter: blur(10px);
+    position: fixed;
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    padding: 20px;
+    font-size: 17px;
 }
 #top-nav-bar #title {
     font-weight: bold;
+    margin-left: -5px;
     margin-right: 10px;
 }
 .nav-bar-link, #fun-fact {
     margin-left: 2.5px;
     margin-right: 2.5px;
+    padding: 10px;
+    border-radius: 100px;
+    color: black;
+    background-color: white;
+}
+.nav-bar-link:hover {
+    color: rgb(122, 27, 199);
+    cursor: pointer;
+    box-shadow: 3px 5px 10px 3px rgb(31, 31, 31);
 }
 #heading_container {
     color: white;
