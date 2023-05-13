@@ -6,10 +6,11 @@ body {
 #top-nav-bar {
     font-size: 18px;
     padding: 12.5px;
-    background-color: #131313;
+    background-color: #131313d8;
     color: white;
     position: fixed;
     width: 100%;
+    backdrop-filter: blur(10px);
 }
 #top-nav-bar #title {
     font-weight: bold;
