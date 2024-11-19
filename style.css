@@ -18,6 +18,10 @@ body {
     width: 100%;
     padding: 20px;
     font-size: 17px;
+    z-index: 10;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 #top-nav-bar #title {
     font-weight: bold;
