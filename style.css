@@ -2,13 +2,16 @@
 
 body {
     margin: 0px;
+    padding: 0px;
     color: white;
     background-color: #030303;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #main-page-content {
-    padding-left: 30px;
-    padding-right: 30px;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #top-nav-bar {
     background-color: #131313d8;
@@ -25,8 +28,8 @@ body {
 }
 #top-nav-bar #title {
     font-weight: bold;
-    margin-left: -5px;
-    margin-right: 10px;
+    margin-left: 0px;
+    /*margin-right: 10px;*/
 }
 .nav-bar-link, #fun-fact {
     margin-left: 2.5px;
@@ -46,7 +49,7 @@ body {
     background-color: rgb(126, 39, 177);
     background-image: url("resources/bg_3.jpg");
     box-shadow: 3px 5px 10px 3px rgb(15, 15, 15);
-    padding: 200px;
+    padding: 20px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,15 +60,16 @@ body {
 #heading_container h1 {
     font-size: 50px;
 }
-#links, #about-me {
-    color: white;
-    background: #353535;
+
+.item-card {
+    background-color: rgb(26, 26, 26);
     border-radius: 20px;
     padding: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    box-shadow: 3px 5px 10px 3px rgb(15, 15, 15);
+    box-shadow: 0px 0px 10px 15px rgb(10, 10, 10); /* rgb(100, 100, 233) rgb(27, 27, 199)*/ 
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
+
 .div-heading {
     font-size: 21px;
 }
@@ -73,6 +77,7 @@ body {
     background-color: #232323;
     color: white;
     padding: 10px;
+    padding-bottom: 15px;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
 }
