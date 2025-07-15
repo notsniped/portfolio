@@ -7,6 +7,28 @@ body {
     background-color: #030303;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Scrollbar: Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #000000;
+}
+/* Scrollbar: Webkit */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #161616;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #252525;
+}
+
 #main-page-content {
     /*padding-left: 30px;
     padding-right: 30px;*/
@@ -25,6 +47,7 @@ body {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    scrollbar-width: none;
 }
 #top-nav-bar #title {
     font-weight: bold;
