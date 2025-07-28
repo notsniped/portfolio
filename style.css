@@ -46,6 +46,7 @@ body {
     overflow-y: hidden;
     white-space: nowrap;
     scrollbar-width: none;
+    user-select: none;
 }
 #top-nav-bar #title {
     font-weight: bold;
