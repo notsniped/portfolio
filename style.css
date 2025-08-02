@@ -87,7 +87,9 @@ body {
 }
 
 .div-heading {
-    font-size: 21px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5px;
 }
 #footer {
     background-color: #232323;
