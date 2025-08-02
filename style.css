@@ -52,6 +52,9 @@ body {
     font-weight: bold;
     margin-left: 0px;
 }
+#top-nav-bar .button_dark {
+    text-decoration: none;
+}
 
 #title {
     margin-right: 5px;
