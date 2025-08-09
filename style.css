@@ -38,9 +38,14 @@ body {
     color: white;
     backdrop-filter: blur(10px);
     position: fixed;
-    width: 100%;
+    width: 85%;
     padding: 20px;
     font-size: 17px;
+    border-radius: 100px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     z-index: 10;
     overflow-x: auto;
     overflow-y: hidden;
